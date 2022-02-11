@@ -6,5 +6,5 @@ import androidx.security.crypto.EncryptedSharedPreferences
 import androidx.security.crypto.MasterKeys
 
 object User {
-    var token: String = ""
+    var token: String? = null
 }
